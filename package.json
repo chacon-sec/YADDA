@@ -1,0 +1,26 @@
+{
+  "name": "yadda",
+  "version": "0.0.1",
+  "description": "Node.js/Electron research implant for Adaptix C2",
+  "private": true,
+  "main": "src/entry.js",
+  "scripts": {
+    "agent": "node src/agent.js",
+    "build": "node scripts/build_payload.js",
+    "build:verify": "node scripts/build_payload.js --verify"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "adaptix",
+    "c2",
+    "beacon",
+    "electron",
+    "redteam"
+  ],
+  "devDependencies": {
+    "javascript-obfuscator": "^5.6.0"
+  },
+  "license": "GPL-3.0-or-later"
+}

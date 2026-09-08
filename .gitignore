@@ -1,0 +1,16 @@
+node_modules/
+dist/
+extender/dist/
+adapter.config.json
+src/adpt.config.json
+adapter.config.json.bak
+*.log
+# native BOF loader build artifacts (built on the Windows lab VM)
+native/coffloader.node
+native/coffloader.lib
+native/coffloader.exp
+native/node.lib
+native/headers.tgz
+native/include/
+build/
+*.o
